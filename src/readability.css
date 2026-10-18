@@ -1,0 +1,163 @@
+body {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.workspace-label,
+.team-heading,
+.eyebrow {
+  color: #58645b;
+  font-size: 11px;
+}
+
+.brand small,
+.team-member small {
+  color: #59665c;
+  font-size: 11px;
+}
+
+.team-member {
+  font-size: 13px;
+}
+
+.team-member .avatar {
+  flex: 0 0 30px;
+  font-size: 11px;
+}
+
+.team-member-info {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.team-member-info > span,
+.team-member-info small {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nav-item {
+  font-size: 14px;
+}
+
+.nav-count,
+.auth-user {
+  color: #4e5c52;
+  font-size: 11px;
+}
+
+.breadcrumb,
+.today-label {
+  color: #56635a;
+  font-size: 13px;
+}
+
+.subheading,
+.section-caption {
+  color: #59665d;
+  font-size: 14px;
+}
+
+.metric-label,
+.metric-foot {
+  color: #566259;
+  font-size: 13px;
+}
+
+.metric-value {
+  font-size: 29px;
+}
+
+.button,
+.filter-tab,
+.queue-filters select,
+.search-box input {
+  font-size: 13px;
+}
+
+.search-box input::placeholder {
+  color: #69756c;
+  opacity: 1;
+}
+
+.ticket-table {
+  font-size: 13px;
+}
+
+.ticket-table th {
+  color: #56635a;
+  font-size: 11px;
+}
+
+.ticket-id,
+.ticket-name,
+.requester-cell,
+.category-cell,
+.assignee {
+  font-size: 13px;
+}
+
+.ticket-name {
+  color: #29352d;
+}
+
+.priority,
+.status-pill,
+.sla-cell {
+  font-size: 12px;
+}
+
+.sla-cell small,
+.table-footer,
+.report-kpi small,
+.report-footnote {
+  color: #58645b;
+  font-size: 11px;
+}
+
+.field {
+  color: #39473d;
+  font-size: 13px;
+}
+
+.field input,
+.field textarea,
+.field select {
+  color: #28352d;
+  font-size: 14px;
+}
+
+.auth-copy {
+  color: #5e6a61;
+  font-size: 14px;
+}
+
+.auth-link,
+.auth-message {
+  font-size: 13px;
+}
+
+@media (max-width: 760px) {
+  .nav-item {
+    font-size: 12px;
+  }
+
+  .filter-tab {
+    font-size: 11px;
+  }
+
+  .table-footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .subheading,
+  .section-caption {
+    font-size: 13px;
+  }
+}
